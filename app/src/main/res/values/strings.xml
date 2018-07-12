@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="title_activity_editor">EditorActivity</string>
+
+    <!-- Label for overflow menu option that inserts fake inventory into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all entries in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Entries</string>
+
+    <!-- Title for the activity to add a new inventory [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_entry">Add an Entry</string>
+
+    <!-- Label for editor menu option to save entry and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current entry [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_product_name">Product Name</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for quantity category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for supplier name category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_name">Supplier Name</string>
+
+    <!-- Label for supplier number category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_number">Supplier number</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_name">Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_quantity">Qantity</string>
+
+    <!-- Text hint for supplier name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_name">Suppl. Name</string>
+
+    <!-- Text hint for supplier number field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_supplier_number">Suppl. Number</string>
+
+    <!-- Units for unit of the price (€) [CHAR LIMIT=5] -->
+    <string name="unit_price">€</string>
+
+</resources>
