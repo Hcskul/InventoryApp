@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Inventory App</string>
-    <string name="title_activity_editor">EditorActivity</string>
 
     <!-- Label for overflow menu option that inserts fake inventory into the app [CHAR LIMIT=20] -->
     <string name="action_insert_dummy_data">Insert Dummy Data</string>
@@ -9,7 +8,10 @@
     <string name="action_delete_all_entries">Delete All Entries</string>
 
     <!-- Title for the activity to add a new inventory [CHAR LIMIT=20] -->
-    <string name="editor_activity_title_new_entry">Add an Entry</string>
+    <string name="editor_activity_title_new_entry">Add Entry</string>
+
+    <!-- Title for the activity to update a new inventory [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_update_entry">Update Entry</string>
 
     <!-- Label for editor menu option to save entry and leave editor [CHAR LIMIT=20] -->
     <string name="action_save">Save</string>
@@ -49,5 +51,77 @@
 
     <!-- Units for unit of the price (€) [CHAR LIMIT=5] -->
     <string name="unit_price">€</string>
+
+    <!-- Big text in empty View [CHAR LIMIT=35] -->
+    <string name="emptyViewBig">No data found, please insert new entries.</string>
+
+    <!-- Small text in empty View [CHAR LIMIT=35] -->
+    <string name="emptyViewSmall">Press the + button at the bottom.</string>
+
+    <!-- Toast message in editor when new entry has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_entry_successful">Entry saved</string>
+
+    <!-- Toast message in editor when new entry has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_entry_failed">Error with saving entry</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current entry [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current entry [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this entry?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current entry [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current entry [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current entry was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_entry_successful">Entry deleted</string>
+
+    <!-- Toast message in editor when current entry has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_entry_failed">Error with deleting entry</string>
+
+    <!-- Plus Symbol for EditorActivity [CHAR LIMIT=NONE] -->
+    <string name="plus_symbol">+</string>
+
+    <!-- Minus Symbol for EditorActivity [CHAR LIMIT=NONE] -->
+    <string name="minus_symbol">-</string>
+
+    <!-- Toast Message when the quantity can't be decreased anymore [CHAR LIMIT=NONE] -->
+    <string name="toast_minus_button">Quantity can\'t be less than 0.</string>
+
+    <!-- Toast Message when the user entered no name [CHAR LIMIT=NONE] -->
+    <string name="toast_no_name">Please enter a name!</string>
+
+    <!-- Toast Message when the user entered no price [CHAR LIMIT=NONE] -->
+    <string name="toast_no_price">Please enter a price!</string>
+
+    <!-- Toast Message when the user entered no price [CHAR LIMIT=NONE] -->
+    <string name="toast_no_quantity">Please enter a quantity!</string>
+
+    <!-- Toast Message when the user entered no supplier name [CHAR LIMIT=NONE] -->
+    <string name="toast_no_supplier_name">Please enter a supplier name!</string>
+
+    <!-- Toast Message when the user entered no supplier number [CHAR LIMIT=NONE] -->
+    <string name="toast_no_supplier_number">Please enter a supplier number!</string>
+
+    <!-- Text for the call the supplier button in the Editor Activity [CHAR LIMIT=NONE] -->
+    <string name="call_supplier">Call the supplier</string>
+
+    <!-- Text for the decrease button in the Catalog Activity [CHAR LIMIT=NONE] -->
+    <string name="decrease_button">-1</string>
+
+    <!-- Toast for the decrease button in the Catalog Activity [CHAR LIMIT=NONE] -->
+    <string name="toast_decrease_success">Quantity was changed</string>
+
+    <!-- Toast Message that informs the user that the numver saved in the database is called [CHAR LIMIT=NONE] -->
+    <string name="toast_call">Saved number from Database is dialed!</string>
 
 </resources>

@@ -6,4 +6,6 @@
     <dimen name="activity_margin">16dp</dimen>
 
     <dimen name="padding_editor">4dp</dimen>
+    <dimen name="margin_editor">25dp</dimen>
+    <dimen name="buttonSize">50dp</dimen>
 </resources>
